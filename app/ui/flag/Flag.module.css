@@ -1,0 +1,9 @@
+.flag {
+    position: relative;
+    display: inline-block;
+    width: 1.333333em;
+    height: 1em;
+}
+.flag--square {
+    width: 1em;
+}

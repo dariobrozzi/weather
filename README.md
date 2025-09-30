@@ -1,8 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Weather App
+
+
+
+## Resources
+
+### External APIs
+- Google reverse geocoding API: https://developers.google.com/maps/documentation/geocoding/requests-reverse-geocoding
+- Open-Meteo API: https://open-meteo.com/
+
+### Assets
+- Flags: https://github.com/lipis/flag-icons
+- Weather Icons:  https://erikflowers.github.io/weather-icons/
+
+
+
+
 
 ## Getting Started
-
-First, run the development server:
 
 ```bash
 npm run dev

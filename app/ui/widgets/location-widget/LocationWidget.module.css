@@ -1,0 +1,30 @@
+:root {
+    --spacing: var(--spacing-sm);
+    --decorator: 19px;
+}
+
+.container {
+    dl,
+    dd {
+        display: flex;
+        gap: var(--spacing);
+    }
+
+    dt {
+        display: none;
+    }
+
+    dd {
+        align-items: center;
+    }
+
+    dd:not(:last-child)::after {
+        content: "·";
+    }
+}
+
+@container widgets-container (width > 839px) {
+    .container {
+        grid-column: 3 / span 2;
+    }
+}

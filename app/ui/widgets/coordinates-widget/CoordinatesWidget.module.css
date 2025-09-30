@@ -1,0 +1,18 @@
+.container {
+    max-width: 30rem;
+    dl {
+        display: flex;
+        flex-direction: row;
+        gap: var(--spacing-sm);
+    }
+
+    dt {
+        font-weight: bold;
+    }
+}
+
+@container widgets-container (width > 839px) {
+    .container {
+        grid-column: 1 / span 2;
+    }
+}

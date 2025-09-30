@@ -1,0 +1,16 @@
+:root {
+    --card-background: rgba(255, 255, 255, 0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --card-background: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.container {
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius);
+    background: var(--card-background);
+    backdrop-filter: contrast(50%) blur(2px);
+}
